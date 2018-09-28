@@ -3,4 +3,4 @@ I noticed that Apple's own Clock.app doesn't animate the toggle of the UISwitch'
 
 This project shows that, in this instance at least, you can animate the colour of the labels. This repo is for demonstration purposes only.
 
-![Animate those labels](https://im.ezgif.com/tmp/ezgif-1-111b072f60.gif)
+![Animate those labels](http://up.tmdvs.me/0cb28c7dce4a/d)
