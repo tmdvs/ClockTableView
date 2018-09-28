@@ -41,7 +41,7 @@ class ClockTableViewCell: UITableViewCell {
     // Observe the toggle switch
     @objc func enableAlarm() {
         // Lets "animate" the label colour
-        UIView.transition(with: self, duration: 0.15, options: .transitionCrossDissolve, animations: { [unowned self] in
+        UIView.transition(with: self, duration: 0.2, options: .transitionCrossDissolve, animations: { [unowned self] in
             self.textLabel?.textColor = self.labelTextColor
             self.detailTextLabel?.textColor = self.labelTextColor
         })
