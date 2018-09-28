@@ -19,8 +19,13 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        tableView.separatorColor = .darkGray
-        tableView.backgroundColor = .black
+        navigationController?.navigationBar.barTintColor = UIColor(white: 0.09, alpha: 1)
+        
+        tableView.separatorColor = UIColor(white: 0.16, alpha: 1)
+        tableView.backgroundColor = UIColor(white: 0.05, alpha: 1)
+        
+        tableView.tableFooterView = UIView(frame: .zero)
+        tableView.tableFooterView?.isHidden = true
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -32,7 +37,7 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 110
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
