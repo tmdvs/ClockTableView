@@ -12,6 +12,7 @@
 		22B0F87E215E6C5200479F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B0F87C215E6C5200479F82 /* Main.storyboard */; };
 		22B0F880215E6C5300479F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B0F87F215E6C5300479F82 /* Assets.xcassets */; };
 		22B0F883215E6C5300479F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B0F881215E6C5300479F82 /* LaunchScreen.storyboard */; };
+		22B0F88D215E6FEE00479F82 /* ClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0F88C215E6FEE00479F82 /* ClockTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		22B0F87F215E6C5300479F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B0F882215E6C5300479F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B0F884215E6C5300479F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B0F88C215E6FEE00479F82 /* ClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				22B0F878215E6C5200479F82 /* AppDelegate.swift */,
 				22B0F87A215E6C5200479F82 /* ViewController.swift */,
+				22B0F88C215E6FEE00479F82 /* ClockTableViewCell.swift */,
 				22B0F87C215E6C5200479F82 /* Main.storyboard */,
 				22B0F87F215E6C5300479F82 /* Assets.xcassets */,
 				22B0F881215E6C5300479F82 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B0F87B215E6C5200479F82 /* ViewController.swift in Sources */,
+				22B0F88D215E6FEE00479F82 /* ClockTableViewCell.swift in Sources */,
 				22B0F879215E6C5200479F82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
